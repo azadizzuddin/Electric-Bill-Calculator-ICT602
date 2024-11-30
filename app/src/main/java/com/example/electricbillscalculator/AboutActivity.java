@@ -49,7 +49,7 @@ public class AboutActivity extends AppCompatActivity {
         ClickableSpan clickableSpan = new ClickableSpan() {
             @Override
             public void onClick(View widget) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=YOUR_VIDEO_ID"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/azadizzuddin/Electric-Bill-Calculator-ICT602"));
                 startActivity(intent);
             }
         };
